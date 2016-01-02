@@ -28,6 +28,7 @@
     NSLog(@"222");
     NSLog(@"fs");
     NSLog(@"网上");
+    NSLog(@"网2");
     return 10;
 }
 
