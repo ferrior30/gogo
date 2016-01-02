@@ -26,11 +26,13 @@
 
 - (CGFloat)b {
     NSLog(@"222本地3");
+    
     NSLog(@"fs");
     NSLog(@"33");
     NSLog(@"go");
     NSLog(@"网上");
     NSLog(@"网2");
+    NSLog(@"网4");
     return 10;
 }
 
