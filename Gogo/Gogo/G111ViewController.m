@@ -33,6 +33,8 @@
     NSLog(@"网上");
     NSLog(@"网2");
     NSLog(@"网4");
+    NSLog(@"本地3");
+    NSLog(@"本地4");
     return 10;
 }
 
