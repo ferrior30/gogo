@@ -30,6 +30,7 @@
     NSLog(@"33");
     NSLog(@"go");
     NSLog(@"网上");
+    NSLog(@"网2");
     return 10;
 }
 
