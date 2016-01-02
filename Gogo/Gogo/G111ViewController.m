@@ -9,7 +9,7 @@
 #import "G111ViewController.h"
 
 @interface G111ViewController ()
-
+@property (assign, nonatomic) CGFloat b;
 @end
 
 @implementation G111ViewController
@@ -22,6 +22,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (CGFloat)b {
+    return 6;
 }
 
 /*
