@@ -31,6 +31,7 @@
     NSLog(@"go");
     NSLog(@"网上");
     NSLog(@"本地3");
+    NSLog(@"本地4");
     return 10;
 }
 
