@@ -25,7 +25,7 @@
 }
 
 - (CGFloat)b {
-    NSLog(@"222");
+    NSLog(@"222本地3");
     NSLog(@"fs");
     NSLog(@"33");
     NSLog(@"go");
