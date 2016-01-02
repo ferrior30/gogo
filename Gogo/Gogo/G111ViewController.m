@@ -25,6 +25,7 @@
 }
 
 - (CGFloat)b {
+    NSLog(@"fs");
     return 10;
 }
 
