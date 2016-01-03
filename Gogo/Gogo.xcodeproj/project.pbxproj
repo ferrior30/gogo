@@ -14,6 +14,7 @@
 		C0986C2B1C37A78900691953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0986C2A1C37A78900691953 /* Assets.xcassets */; };
 		C0986C2E1C37A78900691953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0986C2C1C37A78900691953 /* LaunchScreen.storyboard */; };
 		C0986C371C37A79A00691953 /* G111ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0986C361C37A79A00691953 /* G111ViewController.m */; };
+		C0986C731C394CD800691953 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0986C721C394CD800691953 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C0986C2F1C37A78900691953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0986C351C37A79A00691953 /* G111ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G111ViewController.h; sourceTree = "<group>"; };
 		C0986C361C37A79A00691953 /* G111ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G111ViewController.m; sourceTree = "<group>"; };
+		C0986C711C394CD800691953 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C0986C721C394CD800691953 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		C0986C1D1C37A78900691953 /* Gogo */ = {
 			isa = PBXGroup;
 			children = (
+				C0986C701C394CCE00691953 /* Home */,
 				C0986C211C37A78900691953 /* AppDelegate.h */,
 				C0986C221C37A78900691953 /* AppDelegate.m */,
 				C0986C241C37A78900691953 /* ViewController.h */,
@@ -82,6 +86,15 @@
 				C0986C1F1C37A78900691953 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0986C701C394CCE00691953 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C0986C711C394CD800691953 /* HomeViewController.h */,
+				C0986C721C394CD800691953 /* HomeViewController.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +171,7 @@
 				C0986C371C37A79A00691953 /* G111ViewController.m in Sources */,
 				C0986C261C37A78900691953 /* ViewController.m in Sources */,
 				C0986C231C37A78900691953 /* AppDelegate.m in Sources */,
+				C0986C731C394CD800691953 /* HomeViewController.m in Sources */,
 				C0986C201C37A78900691953 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +319,7 @@
 				C0986C341C37A78900691953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
